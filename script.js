@@ -11,7 +11,10 @@ async function getCoordinates() {
         }
         const data = await response.json();
 
-        console.log(data[0].lat);
+
+        console.log(data);
+
+        // console.log(data[0].lat);
 
 
     } catch (error) {
