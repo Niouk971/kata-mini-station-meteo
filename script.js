@@ -1,5 +1,10 @@
 // A toi de jouer pour cette partie :-) Happy coding !
 
+function getUserInput() {
+    const getInput = document.getElementById("cityInput").value.trim();
+    console.log(getInput);
+}
+
 async function getCoordinates() {
 
     try {
@@ -24,3 +29,5 @@ async function getCoordinates() {
 }
 
 getCoordinates();
+console.log(getUserInput());
+
